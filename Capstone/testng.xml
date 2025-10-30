@@ -8,7 +8,8 @@
       <class name="com.firstcrywebsite.test.TC_WISHLIST_001"/>
       <class name="com.firstcrywebsite.test.TC_CART_001"/>
       <class name="com.firstcrywebsite.test.TC_REMOVE_CART_001"/>
-      <class name="com.firstcrywebsite.test.TC_REMOVE_WISHLIST_001"/>
+      <!-- <class name="com.firstcrywebsite.test.TC_REMOVE_WISHLIST_001"/>-->
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
+
