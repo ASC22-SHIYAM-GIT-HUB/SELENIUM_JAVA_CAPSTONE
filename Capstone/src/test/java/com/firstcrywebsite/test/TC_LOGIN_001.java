@@ -1,4 +1,4 @@
-package com.firstcry.test;
+package com.firstcrywebsite.test;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
@@ -7,11 +7,11 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import com.firstcry.base.BaseTesting;
+import com.firstcrywebsite.base.BaseTest;
 
 import java.time.Duration;
 
-public class spooflogin extends BaseTesting {
+public class TC_LOGIN_001 extends BaseTest {
 
     @Test
     public void testLoginWithMobileNumberAndOTP() throws InterruptedException {
