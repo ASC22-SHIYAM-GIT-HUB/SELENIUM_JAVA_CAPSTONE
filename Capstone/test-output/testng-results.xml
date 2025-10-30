@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="10" total="16" passed="5" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-10-30T23:03:38 IST" name="Suite" finished-at="2025-10-30T23:05:49 IST" duration-ms="131182">
+    <groups>
+    </groups>
+    <test started-at="2025-10-30T23:03:38 IST" name="Test" finished-at="2025-10-30T23:05:49 IST" duration-ms="131182">
+      <class name="com.firstcrywebsite.test.TC_LOGIN_001">
+        <test-method is-config="true" signature="setupSuite()[pri:0, instance:com.firstcrywebsite.test.TC_LOGIN_001@233795b6]" started-at="2025-10-30T23:03:36 IST" name="setupSuite" finished-at="2025-10-30T23:03:38 IST" duration-ms="1709" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSuite -->
+        <test-method is-config="true" signature="setupTest(java.lang.reflect.Method)[pri:0, instance:com.firstcrywebsite.test.TC_LOGIN_001@233795b6]" started-at="2025-10-30T23:03:38 IST" name="setupTest" finished-at="2025-10-30T23:03:38 IST" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.firstcrywebsite.test.TC_LOGIN_001.testLoginWithMobileNumberAndOTP()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="testLoginWithMobileNumberAndOTP()[pri:0, instance:com.firstcrywebsite.test.TC_LOGIN_001@233795b6]" started-at="2025-10-30T23:03:38 IST" name="testLoginWithMobileNumberAndOTP" finished-at="2025-10-30T23:04:16 IST" duration-ms="38463" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithMobileNumberAndOTP -->
+        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.firstcrywebsite.test.TC_LOGIN_001@233795b6]" started-at="2025-10-30T23:04:16 IST" name="tearDownMethod" finished-at="2025-10-30T23:04:16 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLoginWithMobileNumberAndOTP status=SUCCESS method=TC_LOGIN_001.testLoginWithMobileNumberAndOTP()[pri:0, instance:com.firstcrywebsite.test.TC_LOGIN_001@233795b6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="tearDownSuite()[pri:0, instance:com.firstcrywebsite.test.TC_LOGIN_001@233795b6]" started-at="2025-10-30T23:05:49 IST" name="tearDownSuite" finished-at="2025-10-30T23:05:52 IST" duration-ms="3314" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownSuite -->
+      </class> <!-- com.firstcrywebsite.test.TC_LOGIN_001 -->
+      <class name="com.firstcrywebsite.test.TC_REMOVE_WISHLIST_001">
+        <test-method signature="removeFromShortlist()[pri:0, instance:com.firstcrywebsite.test.TC_REMOVE_WISHLIST_001@5852c06f]" started-at="2025-10-30T23:05:31 IST" name="removeFromShortlist" finished-at="2025-10-30T23:05:49 IST" duration-ms="17628" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeFromShortlist -->
+        <test-method is-config="true" signature="setupTest(java.lang.reflect.Method)[pri:0, instance:com.firstcrywebsite.test.TC_REMOVE_WISHLIST_001@5852c06f]" started-at="2025-10-30T23:05:31 IST" name="setupTest" finished-at="2025-10-30T23:05:31 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.firstcrywebsite.test.TC_REMOVE_WISHLIST_001.removeFromShortlist()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.firstcrywebsite.test.TC_REMOVE_WISHLIST_001@5852c06f]" started-at="2025-10-30T23:05:49 IST" name="tearDownMethod" finished-at="2025-10-30T23:05:49 IST" duration-ms="10" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=removeFromShortlist status=SUCCESS method=TC_REMOVE_WISHLIST_001.removeFromShortlist()[pri:0, instance:com.firstcrywebsite.test.TC_REMOVE_WISHLIST_001@5852c06f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+      </class> <!-- com.firstcrywebsite.test.TC_REMOVE_WISHLIST_001 -->
+      <class name="com.firstcrywebsite.test.TC_CART_001">
+        <test-method signature="testAddingProductToAddtocart()[pri:0, instance:com.firstcrywebsite.test.TC_CART_001@238d68ff]" started-at="2025-10-30T23:05:12 IST" name="testAddingProductToAddtocart" finished-at="2025-10-30T23:05:19 IST" duration-ms="7129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddingProductToAddtocart -->
+        <test-method is-config="true" signature="setupTest(java.lang.reflect.Method)[pri:0, instance:com.firstcrywebsite.test.TC_CART_001@238d68ff]" started-at="2025-10-30T23:05:12 IST" name="setupTest" finished-at="2025-10-30T23:05:12 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.firstcrywebsite.test.TC_CART_001.testAddingProductToAddtocart() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method is-config="true" signature="flushReport()[pri:0, instance:com.firstcrywebsite.test.TC_CART_001@238d68ff]" started-at="2025-10-30T23:05:19 IST" name="flushReport" finished-at="2025-10-30T23:05:19 IST" duration-ms="62" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.firstcrywebsite.test.TC_CART_001@238d68ff]" started-at="2025-10-30T23:05:19 IST" name="tearDownMethod" finished-at="2025-10-30T23:05:19 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testAddingProductToAddtocart status=SUCCESS method=TC_CART_001.testAddingProductToAddtocart()[pri:0, instance:com.firstcrywebsite.test.TC_CART_001@238d68ff] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+      </class> <!-- com.firstcrywebsite.test.TC_CART_001 -->
+      <class name="com.firstcrywebsite.test.TC_SEARCH_001">
+        <test-method signature="searchAndNavigateToProduct()[pri:0, instance:com.firstcrywebsite.test.TC_SEARCH_001@4a07d605]" started-at="2025-10-30T23:04:16 IST" name="searchAndNavigateToProduct" finished-at="2025-10-30T23:04:29 IST" duration-ms="12410" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchAndNavigateToProduct -->
+        <test-method is-config="true" signature="setupTest(java.lang.reflect.Method)[pri:0, instance:com.firstcrywebsite.test.TC_SEARCH_001@4a07d605]" started-at="2025-10-30T23:04:16 IST" name="setupTest" finished-at="2025-10-30T23:04:16 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.firstcrywebsite.test.TC_SEARCH_001.searchAndNavigateToProduct()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method is-config="true" signature="flushReport()[pri:0, instance:com.firstcrywebsite.test.TC_SEARCH_001@4a07d605]" started-at="2025-10-30T23:04:29 IST" name="flushReport" finished-at="2025-10-30T23:04:29 IST" duration-ms="414" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.firstcrywebsite.test.TC_SEARCH_001@4a07d605]" started-at="2025-10-30T23:04:29 IST" name="tearDownMethod" finished-at="2025-10-30T23:04:29 IST" duration-ms="11" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchAndNavigateToProduct status=SUCCESS method=TC_SEARCH_001.searchAndNavigateToProduct()[pri:0, instance:com.firstcrywebsite.test.TC_SEARCH_001@4a07d605] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+      </class> <!-- com.firstcrywebsite.test.TC_SEARCH_001 -->
+      <class name="com.firstcrywebsite.test.TC_WISHLIST_001">
+        <test-method signature="testAddingProductToWishlist()[pri:0, instance:com.firstcrywebsite.test.TC_WISHLIST_001@4e0ae11f]" started-at="2025-10-30T23:04:29 IST" name="testAddingProductToWishlist" finished-at="2025-10-30T23:05:11 IST" duration-ms="42291" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id='prodImgInfo']/section[1]/section/div[1]/label[contains(@class,'active')] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.36.0', revision: '6d115cfd87'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.59, chrome: {chromedriverVersion: 142.0.7444.59 (4b8153ab58d3..., userDataDir: C:\Users\shiyam.raj\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54613}, goog:processID: 16400, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54613/devtoo..., se:cdpVersion: 142.0.7444.59, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 58689a555ccfd3095c4bc0bf471667a2]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id='prodImgInfo']/section[1]/section/div[1]/label[contains(@class,'active')] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.36.0', revision: '6d115cfd87'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.59, chrome: {chromedriverVersion: 142.0.7444.59 (4b8153ab58d3..., userDataDir: C:\Users\shiyam.raj\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54613}, goog:processID: 16400, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54613/devtoo..., se:cdpVersion: 142.0.7444.59, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 58689a555ccfd3095c4bc0bf471667a2
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at com.firstcrywebsite.test.TC_WISHLIST_001.testAddingProductToWishlist(TC_WISHLIST_001.java:60)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddingProductToWishlist -->
+        <test-method is-config="true" signature="setupTest(java.lang.reflect.Method)[pri:0, instance:com.firstcrywebsite.test.TC_WISHLIST_001@4e0ae11f]" started-at="2025-10-30T23:04:29 IST" name="setupTest" finished-at="2025-10-30T23:04:29 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.firstcrywebsite.test.TC_WISHLIST_001.testAddingProductToWishlist() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method is-config="true" signature="flushReport()[pri:0, instance:com.firstcrywebsite.test.TC_WISHLIST_001@4e0ae11f]" started-at="2025-10-30T23:05:11 IST" name="flushReport" finished-at="2025-10-30T23:05:11 IST" duration-ms="54" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.firstcrywebsite.test.TC_WISHLIST_001@4e0ae11f]" started-at="2025-10-30T23:05:11 IST" name="tearDownMethod" finished-at="2025-10-30T23:05:12 IST" duration-ms="308" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testAddingProductToWishlist status=FAILURE method=TC_WISHLIST_001.testAddingProductToWishlist()[pri:0, instance:com.firstcrywebsite.test.TC_WISHLIST_001@4e0ae11f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+      </class> <!-- com.firstcrywebsite.test.TC_WISHLIST_001 -->
+      <class name="com.firstcrywebsite.test.TC_REMOVE_CART_001">
+        <test-method is-config="true" signature="setupTest(java.lang.reflect.Method)[pri:0, instance:com.firstcrywebsite.test.TC_REMOVE_CART_001@4b86805d]" started-at="2025-10-30T23:05:19 IST" name="setupTest" finished-at="2025-10-30T23:05:19 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.firstcrywebsite.test.TC_REMOVE_CART_001.removeFromCart()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="removeFromCart()[pri:0, instance:com.firstcrywebsite.test.TC_REMOVE_CART_001@4b86805d]" started-at="2025-10-30T23:05:19 IST" name="removeFromCart" finished-at="2025-10-30T23:05:31 IST" duration-ms="12304" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeFromCart -->
+        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.firstcrywebsite.test.TC_REMOVE_CART_001@4b86805d]" started-at="2025-10-30T23:05:31 IST" name="tearDownMethod" finished-at="2025-10-30T23:05:31 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=removeFromCart status=SUCCESS method=TC_REMOVE_CART_001.removeFromCart()[pri:0, instance:com.firstcrywebsite.test.TC_REMOVE_CART_001@4b86805d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+      </class> <!-- com.firstcrywebsite.test.TC_REMOVE_CART_001 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
